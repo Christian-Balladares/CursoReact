@@ -42,7 +42,7 @@ export const usePersonajes = () => {
 
 
   const personajesGOT = useMemo(() => {
-    return listaGot
+    return  (listaGot === null || listaGot === undefined) ? null : listaGot
   }, [listaGot])
 
   const planeta = useMemo(() => {

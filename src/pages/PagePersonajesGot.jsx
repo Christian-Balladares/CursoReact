@@ -9,7 +9,7 @@ export const PagePersonajesGot = () => {
 
     useEffect(() => {    
         //console.log("test")  
-     if(personajesGOT===undefined) obtenerPersonajesGOT();
+     if(personajesGOT===null) obtenerPersonajesGOT();
    //  console.log(personajesGOT)  
     }, [])
 
